@@ -1,0 +1,110 @@
+# ==================================================
+# Unity 2025+ .gitignore Template
+# ==================================================
+
+# --- OS & IDE ---
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.vcxproj
+*.sln
+.idea/
+.vscode/
+.vs/
+# --- Unity Generated Files ---
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+UserSettings/
+CrashReports/
+
+# --- Cache & Artifacts ---
+*.unitypackage
+*.apk
+*.aab
+*.app
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.gradle/
+.gradle/
+*.gradlew
+*.keystore
+
+# --- Addressables ---
+/ServerData/
+AssetBundles/
+StreamingAssets/aa/
+
+# --- Collaborate / Plastic SCM ---
+.collabignore
+.plastic/
+CacheServer/
+
+# --- Rider & JetBrains ---
+/.idea/
+/*.sln.iml
+
+# --- Unity Cloud Build ---
+/unitycloud/
+
+# --- TextMesh Pro ---
+/Assets/TextMesh Pro/Examples & Extras/
+
+# --- Lightmapping / GI Cache ---
+/LightingData.asset
+/Lightmap-*
+/ReflectionProbe-*
+/GI/
+/BakedData/
+
+# --- Auto-generated meta & test data ---
+*.tmp
+*.bak
+*.back
+*.orig
+*.old
+*.prefs
+*.pidb.meta
+*.booproj.meta
+
+# --- Crash & Logs ---
+sysinfo.txt
+*.stackdump
+*.log
+*.dmp
+
+# --- Builds ---
+/Build/
+/Builds/
+/bin/
+/obj/
+
+# --- Addressable Build Artifacts ---
+/ServerData/
+/AddressableAssetsData/*/BuildCache/
+/AddressableAssetsData/*/AssetGroups/*_BuiltData/
+
+# --- Asset Store Tools ---
+/Assets/AssetStoreTools*
+
+# --- Collaborate & Plastic SCM ---
+/Library/Collab/
+/Library/PlasticSCM/
+
+# --- Misc ---
+/Packages/com.unity.testtools.codecoverage/
